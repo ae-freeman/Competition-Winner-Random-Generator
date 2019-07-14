@@ -1,0 +1,30 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+
+  padding: 1% 15%;
+
+}
+
+.header {
+    background-color: #343a40;;
+}
+
+.middle {
+  background-color: #3c4f65;
+}
+
+.footer {
+  padding: 1.75% 15%;
+  background-color: #C1A5B4;
+}
+
+h1 {
+  color: #f6f5f5;
+  position: relative;
+
+}

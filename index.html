@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Name Generator</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu:400,700&display=swap" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid header">
+    <h1>Competition Winner Random Generator</h1>
+  </div>
+
+  <div class="container-fluid middle">
+    <form>
+      <h4>Name list:</h4>
+      <br>
+      <textarea rows="7" cols="40"></textarea>
+      <br>
+      <button type="button" class="btn btn-dark" onclick="findTheWinner()">Submit</button>
+
+    </form>
+
+    <h3>How it works:</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Copy your list of names into the box above</li>
+      <li class="list-group-item">Make sure each name is on a new line</li>
+      <li class="list-group-item">If there are multiple occurences of one name, the program will only count them once</li>
+
+    </ul>
+  </div>
+
+  <div class="footer">
+  <p>Any questions?</p>
+  <a class="btn btn-dark" href="mailto:annie.e.freeman@gmail.com"><i class="fas fa-envelope"></i>   Contact me</a>
+  </div>
+
+
+  <script src="VCindex.js" charset="utf-8"></script>
+</body>
+
+</html>
