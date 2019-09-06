@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 function findTheWinner() {
 
   var box = document.querySelector("textarea");
@@ -8,7 +10,7 @@ function findTheWinner() {
 
   console.log(peopleListWithoutDuplication);
 
-  var numberOfPeople = people.length;
+  var numberOfPeople = peopleListWithoutDuplication.length;
 
   var randomNumber = Math.random();
   indexOfWinner = Math.floor(randomNumber * numberOfPeople);
